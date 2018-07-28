@@ -1,11 +1,23 @@
 // Widescreens
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
+
 //Desktops and Laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
 // Tablets
 @include mediaMd {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   main {
     align-items: center;
     text-align: center;
@@ -48,13 +60,21 @@
       "job1"
       "job2"
       "job3";
-
     grid-template-columns: 1fr;
+
+    .resize {
+      width: 50%;
+      height: auto;
+    }
   }
 }
+
 // Phones
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
 }

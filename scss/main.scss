@@ -49,7 +49,7 @@ header {
 
 main {
   padding: 4rem;
-  //height: 100%;
+
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -71,9 +71,10 @@ main {
 }
 .about-info {
   .resize {
-    width: 65%;
+    width: 100%;
     height: auto;
   }
+
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
@@ -109,6 +110,47 @@ main {
     padding: 0.5rem;
     border-bottom: $second-color 5px solid;
   }
+}
+
+//Work/Projects
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.3;
+      border-color: $second-color;
+      @include easeOut;
+    }
+  }
+}
+
+// Button Styles
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $second-color;
+    color: set-text-color ($second-color);
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
+}
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: #333;
 }
 .main-footer {
   text-align: center;
