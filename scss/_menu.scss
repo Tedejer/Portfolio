@@ -87,12 +87,12 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/background.JPG");
-      background-size: 20rem;
+      background: url("../img/Profile.JPG");
+      background-size: 30rem;
       //background-position: center;
-      background-position: -30px 0;
+      background-position: -150px 0;
       border-radius: 500%;
-      border: solid 2px $second-color;
+      border: solid 3px $second-color;
     }
   }
   .nav-item {
