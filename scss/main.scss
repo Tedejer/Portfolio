@@ -33,7 +33,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: #03254c;
   text-decoration: none;
 }
 
@@ -85,8 +85,7 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
-    border: $second-color 3px solid;
+    border: $second-color 2px solid;
   }
   .bio {
     grid-area: bio;
