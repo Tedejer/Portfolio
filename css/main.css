@@ -99,7 +99,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/Profile.jpg");
+  background: url(../img/Profile.jpg);
   background-size: 30rem;
   background-position: -150px 0;
   border-radius: 500%;
