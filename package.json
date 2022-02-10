@@ -5,13 +5,11 @@
   "main": "index.js",
   "homepage": "https://tedejer.github.io/Portfolio/",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "Ternel Edejer",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.14.1"
+    "gh-pages": "^1.2.0"
   }
 }
