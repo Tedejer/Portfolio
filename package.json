@@ -1,7 +1,7 @@
 {
   "name": "portfoliopage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio Page",
   "main": "index.js",
   "homepage": "https://tedejer.github.io/Portfolio/",
   "scripts": {
